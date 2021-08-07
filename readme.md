@@ -7,3 +7,17 @@ This code will create a personal QR Code so you can have it on your phone and an
 ## Virtual Environment Requirements
 pip install qrcode
 pip instal pillow
+
+## Other requirements
+Make sure to create a dev_settings.py file with you VCARD information in the following format:
+N = "LastName;FirstName"
+FN = "FirstName" 
+ORG = "Company Name"
+URL = "Website URL"
+EMAIL = "email@gmail.com"
+phone = "+1 xxx xxx xxxx"
+twitter = "twitter_handle"
+twitter_url = "twitter_url"
+linkedin_url = "linkedin_url"
+linkedin = "linkedin_handle"
+pic = "picture_url"
