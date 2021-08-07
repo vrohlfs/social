@@ -13,13 +13,15 @@ except:
 ########### VCARD ###################
 input_data = '''BEGIN:VCARD
 
-VERSION:3.0
+VERSION:4.0
 
 N:''' + N + '''
 
 FN:''' + FN + '''
 
 ORG:''' + ORG + '''
+
+URL:''' + URL + '''
 
 EMAIL:''' + EMAIL + ''' 
 
@@ -29,7 +31,7 @@ X-SOCIALPROFILE;type=twitter;x-user=''' + twitter + twitter_url + '''
 
 X-SOCIALPROFILE;type=linkedin;x-user=''' + linkedin + linkedin_url + '''
 
-PHOTO;VALUE=URL;TYPE=JPEG:''' + pic + '''
+PHOTO;MEDIATYPE=image/jpeg:''' + pic + '''
 
 END:VCARD '''
 
@@ -42,4 +44,4 @@ qr = qrcode.QRCode(
 qr.add_data(input_data)
 qr.make(fit=True)
 img = qr.make_image(image_factory=StyledPilImage, module_drawer=HorizontalBarsDrawer(), fill='black', back_color='white')
-img.save('vr_qrcode001.png')
+img.save(qr_prefix + '_qrcode.png')

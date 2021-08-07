@@ -12,6 +12,8 @@ pip instal pillow
 ## Other requirements
 Make sure to create a dev_settings.py file with you VCARD information in the following format:
 
+qr_prefix = "xx" #qr png file naming prefix
+
 N = "LastName;FirstName"
 
 FN = "FirstName" 
