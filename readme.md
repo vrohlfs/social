@@ -35,3 +35,13 @@ linkedin_url = "linkedin_url"
 linkedin = "linkedin_handle"
 
 pic = "picture_url"
+
+## Do you want your QR code on your Iphone?
+- Save the .png file outputed by this code in your camera roll
+- Download *Widgetsmith* app
+- Create a widget using the .png file in your camera roll
+- Go to Iphone widget panel and insert recently created widget to your Home Page
+- Enjoy the amazing networking experience and share your contact card!
+
+
+Cheers. 
