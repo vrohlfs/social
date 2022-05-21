@@ -30,9 +30,13 @@ twitter = "twitter_handle"
 
 twitter_url = "twitter_url"
 
+linkedin = "linkedin_handle"
+
 linkedin_url = "linkedin_url"
 
-linkedin = "linkedin_handle"
+telegram = "telegram_handle"
+
+telegram_url = "telegram_url
 
 pic = "picture_url"
 

@@ -11,6 +11,7 @@ except:
     pass
 
 ########### VCARD ###################
+### For email, include the following in the block below: EMAIL:''' + EMAIL + '''  ###
 input_data = '''BEGIN:VCARD
 
 VERSION:4.0
@@ -30,6 +31,8 @@ TEL;TYPE=voice,work,pref:''' + phone + '''
 X-SOCIALPROFILE;type=twitter;x-user=''' + twitter + twitter_url + '''
 
 X-SOCIALPROFILE;type=linkedin;x-user=''' + linkedin + linkedin_url + '''
+
+X-SOCIALPROFILE;type=telegram;x-user=''' + telegram + telegram_url +  '''
 
 PHOTO;MEDIATYPE=image/jpeg:''' + pic + '''
 
